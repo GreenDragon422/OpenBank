@@ -1,0 +1,7 @@
+title: Account
+x-stoplight:
+  id: 8x7jnauxgce1r
+type: object
+properties:
+  id:
+    type: string

@@ -1,0 +1,7 @@
+title: Branch
+x-stoplight:
+  id: 58dpz53tddlcp
+type: object
+properties:
+  id:
+    type: string

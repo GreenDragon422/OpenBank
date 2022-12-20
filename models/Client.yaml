@@ -1,0 +1,7 @@
+title: Client
+x-stoplight:
+  id: 5ifj7ole46qvw
+type: object
+properties:
+  id:
+    type: string

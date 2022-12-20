@@ -1,0 +1,7 @@
+title: Bank
+x-stoplight:
+  id: mbk1irdi0l0bc
+type: object
+properties:
+  id:
+    type: string
