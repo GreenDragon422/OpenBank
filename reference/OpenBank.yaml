@@ -24,6 +24,12 @@ paths:
                 Example 1:
                   value:
                     id: '39'
+        '422':
+          description: Unprocessable Entity (WebDAV)
+          content:
+            application/json:
+              schema:
+                $ref: ../models/Bank.yaml
       parameters:
         - $ref: '#/components/parameters/bankId'
       requestBody:
