@@ -80,6 +80,10 @@ components:
         - lastName
         - email
         - emailVerified
+    '':
+      $ref: ../models/Client.yaml
+      x-stoplight:
+        id: z5w2wavgp826w
   securitySchemes: {}
   parameters:
     bankId:
