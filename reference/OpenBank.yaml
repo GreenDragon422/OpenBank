@@ -11,45 +11,26 @@ servers:
 paths:
   /banks:
     get:
-      summary: GetBanks
-      tags: []
+      summary: ''
+      operationId: get-banks
       responses:
         '200':
-          description: simple example for mock server
+          description: OK
           content:
             application/json:
               schema:
-                $ref: ../models/Client.yaml
+                $ref: ../models/Bank.yaml
               examples:
                 Example 1:
                   value:
-                    id: 123
-                    firstName: ישראל
-                    lastName: ישראלי
-                    phoneNumber: '123456789'
-        '201':
-          description: Created
-      operationId: get-banks
+                    id: '42'
       parameters:
-        - schema:
-            type: string
-          in: header
         - $ref: '#/components/parameters/bankId'
       requestBody:
         content:
           application/json:
             schema:
-              type: object
-              properties:
-                '':
-                  $ref: ../models/Client.yaml
-    post:
-      summary: ''
-      operationId: post-banks
-      responses:
-        '200':
-          description: OK
-  /banks/delete: {}
+              $ref: ../models/Bank.yaml
 components:
   schemas:
     User:
