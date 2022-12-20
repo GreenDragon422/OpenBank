@@ -25,3 +25,5 @@ properties:
 required:
   - phoneNumber
   - Accounts
+x-tags:
+  - banking
