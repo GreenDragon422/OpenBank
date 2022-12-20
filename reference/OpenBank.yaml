@@ -9,32 +9,7 @@ info:
 servers:
   - url: 'http://localhost:3000'
 paths:
-  /banks:
-    get:
-      summary: ''
-      operationId: get-banks
-      responses:
-        '200':
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: ../models/Bank.yaml
-              examples:
-                Example 1:
-                  value:
-                    id: '42'
-      parameters:
-        - $ref: '#/components/parameters/bankId'
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: ../models/Bank.yaml
-            examples:
-              Example 1:
-                value:
-                  id: '42'
+  /banks: {}
 components:
   schemas:
     User:
