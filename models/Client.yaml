@@ -2,6 +2,26 @@ title: Client
 x-stoplight:
   id: 5ifj7ole46qvw
 type: object
+description: לקוח בסניף
+examples:
+  - id: 123
+    firstName: ישראל
+    lastName: ישראלי
+    phoneNumber: '123456789'
 properties:
   id:
+    type: number
+  firstName:
     type: string
+  lastName:
+    type: string
+  phoneNumber:
+    type: string
+    description: מספר טלפון
+  Accounts:
+    type: array
+    items:
+      $ref: ./Account.yaml
+required:
+  - phoneNumber
+  - Accounts
