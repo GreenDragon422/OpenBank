@@ -15,7 +15,18 @@ paths:
       tags: []
       responses:
         '200':
-          description: 'response example  '
+          description: simple example for mock server
+          content:
+            application/json:
+              schema:
+                $ref: ../models/Client.yaml
+              examples:
+                Example 1:
+                  value:
+                    id: 123
+                    firstName: ישראל
+                    lastName: ישראלי
+                    phoneNumber: '123456789'
         '201':
           description: Created
       operationId: get-banks
