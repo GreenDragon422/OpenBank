@@ -11,7 +11,7 @@ servers:
 paths:
   /banks:
     get:
-      summary: ''
+      summary: GetBanks
       operationId: get-banks
       responses:
         '200':
