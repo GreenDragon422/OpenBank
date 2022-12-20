@@ -31,6 +31,10 @@ paths:
           application/json:
             schema:
               $ref: ../models/Bank.yaml
+            examples:
+              Example 1:
+                value:
+                  id: '42'
 components:
   schemas:
     User:
