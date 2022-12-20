@@ -38,12 +38,7 @@ paths:
       responses:
         '200':
           description: OK
-  /banks/delete:
-    get:
-      summary: Your GET endpoint
-      tags: []
-      responses: {}
-      operationId: get-banks-delete
+  /banks/delete: {}
 components:
   schemas:
     User:
