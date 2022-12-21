@@ -9,7 +9,7 @@ info:
 servers:
   - url: 'http://localhost:3000'
 paths:
-  /banks:
+  /banks-test:
     get:
       summary: GetBanks
       operationId: get-banks
@@ -35,6 +35,7 @@ paths:
               Example 1:
                 value:
                   id: '42'
+    parameters: []
 components:
   schemas:
     User:
